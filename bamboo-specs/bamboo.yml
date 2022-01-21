@@ -1,0 +1,23 @@
+---
+version: 2
+plan:
+  project-key: DEV
+  key: JAVA
+  name: spring-petclinic
+  description: Plan de build creado con build specs yaml.
+stages:
+  - Build :
+      - Build
+
+Build:
+  tasks:
+    - clean
+    - script:
+        - echo '*******compile**********'
+        - mvn compile
+    - script:
+        - echo '*******test**********'
+        - mvn compile
+    - script:
+        - echo '*******package**********'
+        - mvn package
