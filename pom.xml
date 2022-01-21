@@ -27,7 +27,6 @@
     <node.version>v8.11.1</node.version>
     <nohttp-checkstyle.version>0.0.4.RELEASE</nohttp-checkstyle.version>
     <spring-format.version>0.0.27</spring-format.version>
-
   </properties>
 
   <dependencies>
@@ -92,17 +91,7 @@
     <!-- webjars -->
     <dependency>
       <groupId>org.webjars</groupId>
-<<<<<<< HEAD
-      <artifactId>webjars-locator</artifactId>
-      <version>0.41</version>
-   </dependency>
-    <dependency>
-      <groupId>org.webjars</groupId>
-      <artifactId>jquery</artifactId>
-      <version>${webjars-jquery.version}</version>
-=======
       <artifactId>webjars-locator-core</artifactId>
->>>>>>> 9cb8dde9b8b70218cb666447cbf1342bce7a473c
     </dependency>
     <dependency>
       <groupId>org.webjars.npm</groupId>
@@ -194,18 +183,9 @@
         </executions>
       </plugin>
       <plugin>
-<<<<<<< HEAD
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>cobertura-maven-plugin</artifactId>
-        <version>${cobertura.version}</version>
-        <configuration>
-          <check/>
-        </configuration>
-=======
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>${jacoco.version}</version>
->>>>>>> 9cb8dde9b8b70218cb666447cbf1342bce7a473c
         <executions>
           <execution>
             <goals>
@@ -247,26 +227,6 @@
 
     </plugins>
   </build>
-<<<<<<< HEAD
-  <reporting>
-    <plugins>
-      <!-- integrate maven-cobertura-plugin to project site -->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>cobertura-maven-plugin</artifactId>
-        <version>${cobertura.version}</version>
-        <configuration>
-          <formats>
-            <format>html</format>
-          </formats>
-          <check/>
-        </configuration>
-      </plugin>
-    </plugins>
-  </reporting>
-=======
->>>>>>> 9cb8dde9b8b70218cb666447cbf1342bce7a473c
-
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
