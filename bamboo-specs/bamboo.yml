@@ -21,3 +21,6 @@ Build:
     - script:
         - echo '*******package**********'
         - mvn package
+    final-tasks:
+    # This will parse the default files `**/test-reports/*.xml` for junit
+    - test-parser: junit
