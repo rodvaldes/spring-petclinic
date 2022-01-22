@@ -9,7 +9,7 @@ stages:
   - Build :
       - Build con Maven
 
-Build:
+Build con Maven:
   tasks:
     - clean
     - script:
