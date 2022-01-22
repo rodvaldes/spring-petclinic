@@ -25,5 +25,4 @@ final-tasks:
    - test-parser:
        type: junit
        test-results:
-         - **/target/surefire-reports/*.xml
-         - target/test/xml-reports 
+         - target/surefire-reports/*.xml
