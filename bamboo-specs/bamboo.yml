@@ -21,7 +21,7 @@ Build:
     - script:
         - echo '*******package**********'
         - mvn package
-final-tasks:
+  final-tasks:
    - test-parser:
        type: junit
        test-results:
