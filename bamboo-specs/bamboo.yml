@@ -24,3 +24,5 @@ Build:
   final-tasks:
     # This will parse the default files `**/test-reports/*.xml` for junit
     - test-parser: junit
+      test-results:
+          - **/target/surefire-reports/*.xml
