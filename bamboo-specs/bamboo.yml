@@ -21,9 +21,9 @@ Build:
     - script:
         - echo '*******package**********'
         - mvn package
- final-tasks:
-    - test-parser:
-        type: junit
-        test-results:
-          - **/target/surefire-reports/*.xml
-          - target/test/xml-reports 
+final-tasks:
+   - test-parser:
+       type: junit
+       test-results:
+         - **/target/surefire-reports/*.xml
+         - target/test/xml-reports 
