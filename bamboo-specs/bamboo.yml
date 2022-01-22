@@ -7,7 +7,7 @@ plan:
   description: Plan de build creado con build specs yaml.
 stages:
   - Build :
-      - Build
+      - Build con Maven
 
 Build:
   tasks:
