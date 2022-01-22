@@ -14,13 +14,13 @@ Build:
     - clean
     - script:
         - echo '*******compile**********'
-        - mvn compile
+        - mvn compile -Dcheckstyle.skip
     - script:
         - echo '*******test**********'
-        - mvn test
+        - mvn test -Dcheckstyle.skip
     - script:
         - echo '*******package**********'
-        - mvn package
+        - mvn package -Dcheckstyle.skip
   final-tasks:
    - test-parser:
        type: junit
