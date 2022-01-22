@@ -391,5 +391,14 @@
       </build>
     </profile>
   </profiles>
-
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://192.168.60.4:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://192.168.60.4/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
