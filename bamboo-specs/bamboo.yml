@@ -17,7 +17,7 @@ Build:
         - mvn compile
     - script:
         - echo '*******test**********'
-        - mvn compile
+        - mvn test
     - script:
         - echo '*******package**********'
         - mvn package
